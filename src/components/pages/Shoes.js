@@ -5,8 +5,8 @@ const Shoes = props => {
   
   return (
     <>
-      <div className="row">
-          <div className="col-md-12">
+       <div className="row pt-5">
+      <div className="col-md-12 pt-5">
               <div className="offset-md-2 col-md-8">
                   <img src="/img2.jpg" className="header-logo w-100" alt="sparkale" /><br /><br />
                   <h5 >{props.title}</h5>
