@@ -25,7 +25,7 @@ const Header = props => {
                     <div className="col-md-2 col-3 text-center pt-3 pl--60">
                         <img src="https://web-fixer.com/sparkle/wp-content/uploads/2022/01/logo2.png" className="header_logo header-logo w-40" alt="sparkale" />
                     </div>
-                    <div className="col-md-5 col-5 text-right pt-3">
+                    <div className="col-md-5 col-6 text-right pt-3 pl-3">
                       <div className="rounded" role="group" aria-label="Basic example">
                         <Link to="/" className="btn-link p-1"><img src="https://img.icons8.com/ios-glyphs/25/000000/search--v1.png" /></Link>
                         <Link to="/" className="btn-link p-1"><img src="https://img.icons8.com/ios/25/000000/shopping-bag--v1.png" /></Link>
@@ -33,7 +33,7 @@ const Header = props => {
                       </div> 
                     </div>
                 </div> 
-                <div className="col-md-6 offset-md-4 pl-5 pt-3">
+                <div className="col-md-6 offset-md-4 col-8 offset-1  pt-3">
                     <div className="rounded" role="group" aria-label="Basic example">
                         <Link className={`active_link ${window.location.pathname=='/clothing'? "border-bottom" :''}`} to="/clothing">Clothing</Link>
                         <Link className={`active_link ${window.location.pathname=='/shoes'? "border-bottom" :''}`} to="/shoes">SHOES</Link>
